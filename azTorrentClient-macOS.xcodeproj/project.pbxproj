@@ -23,6 +23,7 @@
 		ECD3DEB320B7599D00DD3D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECD3DEB520B7599D00DD3D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECD3DEB620B7599D00DD3D07 /* azTorrentClient_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = azTorrentClient_macOS.entitlements; sourceTree = "<group>"; };
+		ECD3DEBC20B75BCF00DD3D07 /* azTorrentClient-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "azTorrentClient-macOS.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		ECD3DEA820B7599C00DD3D07 /* azTorrentClient-macOS */ = {
 			isa = PBXGroup;
 			children = (
+				ECD3DEBC20B75BCF00DD3D07 /* azTorrentClient-macOS.entitlements */,
 				ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */,
 				ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */,
 				ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */,
@@ -98,6 +100,11 @@
 				TargetAttributes = {
 					ECD3DEA520B7599C00DD3D07 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -273,7 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient_macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient-macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
@@ -292,7 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient_macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient-macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
