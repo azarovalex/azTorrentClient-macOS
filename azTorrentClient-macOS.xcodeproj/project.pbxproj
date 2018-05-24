@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD3DEAA20B7599C00DD3D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */; };
+		ECD3DEAC20B7599C00DD3D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */; };
+		ECD3DEAF20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEAD20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld */; };
+		ECD3DEB120B7599D00DD3D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */; };
+		ECD3DEB420B7599D00DD3D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD3DEB220B7599D00DD3D07 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECD3DEA620B7599C00DD3D07 /* azTorrentClient-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "azTorrentClient-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD3DEAE20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = azTorrentClient_macOS.xcdatamodel; sourceTree = "<group>"; };
+		ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECD3DEB320B7599D00DD3D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECD3DEB520B7599D00DD3D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD3DEB620B7599D00DD3D07 /* azTorrentClient_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = azTorrentClient_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD3DEA320B7599C00DD3D07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD3DE9D20B7599C00DD3D07 = {
+			isa = PBXGroup;
+			children = (
+				ECD3DEA820B7599C00DD3D07 /* azTorrentClient-macOS */,
+				ECD3DEA720B7599C00DD3D07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD3DEA720B7599C00DD3D07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3DEA620B7599C00DD3D07 /* azTorrentClient-macOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD3DEA820B7599C00DD3D07 /* azTorrentClient-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */,
+				ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */,
+				ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */,
+				ECD3DEB220B7599D00DD3D07 /* Main.storyboard */,
+				ECD3DEB520B7599D00DD3D07 /* Info.plist */,
+				ECD3DEB620B7599D00DD3D07 /* azTorrentClient_macOS.entitlements */,
+				ECD3DEAD20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld */,
+			);
+			path = "azTorrentClient-macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD3DEA520B7599C00DD3D07 /* azTorrentClient-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD3DEB920B7599D00DD3D07 /* Build configuration list for PBXNativeTarget "azTorrentClient-macOS" */;
+			buildPhases = (
+				ECD3DEA220B7599C00DD3D07 /* Sources */,
+				ECD3DEA320B7599C00DD3D07 /* Frameworks */,
+				ECD3DEA420B7599C00DD3D07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "azTorrentClient-macOS";
+			productName = "azTorrentClient-macOS";
+			productReference = ECD3DEA620B7599C00DD3D07 /* azTorrentClient-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD3DE9E20B7599C00DD3D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alex Azarov";
+				TargetAttributes = {
+					ECD3DEA520B7599C00DD3D07 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = ECD3DEA120B7599C00DD3D07 /* Build configuration list for PBXProject "azTorrentClient-macOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECD3DE9D20B7599C00DD3D07;
+			productRefGroup = ECD3DEA720B7599C00DD3D07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD3DEA520B7599C00DD3D07 /* azTorrentClient-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD3DEA420B7599C00DD3D07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3DEB120B7599D00DD3D07 /* Assets.xcassets in Resources */,
+				ECD3DEB420B7599D00DD3D07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD3DEA220B7599C00DD3D07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD3DEAC20B7599C00DD3D07 /* ViewController.swift in Sources */,
+				ECD3DEAA20B7599C00DD3D07 /* AppDelegate.swift in Sources */,
+				ECD3DEAF20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECD3DEB220B7599D00DD3D07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD3DEB320B7599D00DD3D07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD3DEB720B7599D00DD3D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECD3DEB820B7599D00DD3D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ECD3DEBA20B7599D00DD3D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CLALR9F4Q5;
+				INFOPLIST_FILE = "azTorrentClient-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "by.azarov.azTorrentClient-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ECD3DEBB20B7599D00DD3D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CLALR9F4Q5;
+				INFOPLIST_FILE = "azTorrentClient-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "by.azarov.azTorrentClient-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD3DEA120B7599C00DD3D07 /* Build configuration list for PBXProject "azTorrentClient-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD3DEB720B7599D00DD3D07 /* Debug */,
+				ECD3DEB820B7599D00DD3D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD3DEB920B7599D00DD3D07 /* Build configuration list for PBXNativeTarget "azTorrentClient-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD3DEBA20B7599D00DD3D07 /* Debug */,
+				ECD3DEBB20B7599D00DD3D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECD3DEAD20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECD3DEAE20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodel */,
+			);
+			currentVersion = ECD3DEAE20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodel */;
+			path = azTorrentClient_macOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECD3DE9E20B7599C00DD3D07 /* Project object */;
+}
