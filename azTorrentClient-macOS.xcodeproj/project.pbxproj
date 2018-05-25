@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7754AF5F221CC84A1588A154 /* Pods_azTorrentClient_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA8DDBA4C7C623BE1C47C61 /* Pods_azTorrentClient_macOS.framework */; };
 		ECD3DEAA20B7599C00DD3D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */; };
-		ECD3DEAC20B7599C00DD3D07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */; };
+		ECD3DEAC20B7599C00DD3D07 /* MainWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEAB20B7599C00DD3D07 /* MainWindowVC.swift */; };
 		ECD3DEAF20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEAD20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld */; };
 		ECD3DEB120B7599D00DD3D07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */; };
 		ECD3DEB420B7599D00DD3D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD3DEB220B7599D00DD3D07 /* Main.storyboard */; };
+		ECD3DEBE20B7F2CD00DD3D07 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEBD20B7F2CD00DD3D07 /* Extentions.swift */; };
+		ECD3DEC420B8246E00DD3D07 /* TorrentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD3DEC320B8246E00DD3D07 /* TorrentInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D9AC34DEB5F8CF8447CBADA /* Pods-azTorrentClient-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTorrentClient-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-azTorrentClient-macOS/Pods-azTorrentClient-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		7EA8DDBA4C7C623BE1C47C61 /* Pods_azTorrentClient_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_azTorrentClient_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E23AD1B1499401F99AFA60A /* Pods-azTorrentClient-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-azTorrentClient-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-azTorrentClient-macOS/Pods-azTorrentClient-macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ECD3DEA620B7599C00DD3D07 /* azTorrentClient-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "azTorrentClient-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECD3DEAB20B7599C00DD3D07 /* MainWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowVC.swift; sourceTree = "<group>"; };
 		ECD3DEAE20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = azTorrentClient_macOS.xcdatamodel; sourceTree = "<group>"; };
 		ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECD3DEB320B7599D00DD3D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECD3DEB520B7599D00DD3D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECD3DEB620B7599D00DD3D07 /* azTorrentClient_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = azTorrentClient_macOS.entitlements; sourceTree = "<group>"; };
+		ECD3DEBC20B75BCF00DD3D07 /* azTorrentClient-macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "azTorrentClient-macOS.entitlements"; sourceTree = "<group>"; };
+		ECD3DEBD20B7F2CD00DD3D07 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		ECD3DEC320B8246E00DD3D07 /* TorrentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrentInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7754AF5F221CC84A1588A154 /* Pods_azTorrentClient_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1238BD848C25E6E07D378DDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E23AD1B1499401F99AFA60A /* Pods-azTorrentClient-macOS.debug.xcconfig */,
+				6D9AC34DEB5F8CF8447CBADA /* Pods-azTorrentClient-macOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9599C0A2C5C959A4BA6920D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA8DDBA4C7C623BE1C47C61 /* Pods_azTorrentClient_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECD3DE9D20B7599C00DD3D07 = {
 			isa = PBXGroup;
 			children = (
 				ECD3DEA820B7599C00DD3D07 /* azTorrentClient-macOS */,
 				ECD3DEA720B7599C00DD3D07 /* Products */,
+				1238BD848C25E6E07D378DDC /* Pods */,
+				9599C0A2C5C959A4BA6920D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,15 +84,42 @@
 		ECD3DEA820B7599C00DD3D07 /* azTorrentClient-macOS */ = {
 			isa = PBXGroup;
 			children = (
+				ECD3DEC120B8244000DD3D07 /* Model */,
+				ECD3DEC020B8243A00DD3D07 /* View */,
+				ECD3DEBF20B8243200DD3D07 /* Controller */,
+				ECD3DEBC20B75BCF00DD3D07 /* azTorrentClient-macOS.entitlements */,
 				ECD3DEA920B7599C00DD3D07 /* AppDelegate.swift */,
-				ECD3DEAB20B7599C00DD3D07 /* ViewController.swift */,
 				ECD3DEB020B7599D00DD3D07 /* Assets.xcassets */,
 				ECD3DEB220B7599D00DD3D07 /* Main.storyboard */,
 				ECD3DEB520B7599D00DD3D07 /* Info.plist */,
 				ECD3DEB620B7599D00DD3D07 /* azTorrentClient_macOS.entitlements */,
 				ECD3DEAD20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld */,
+				ECD3DEBD20B7F2CD00DD3D07 /* Extentions.swift */,
 			);
 			path = "azTorrentClient-macOS";
+			sourceTree = "<group>";
+		};
+		ECD3DEBF20B8243200DD3D07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3DEAB20B7599C00DD3D07 /* MainWindowVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECD3DEC020B8243A00DD3D07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECD3DEC120B8244000DD3D07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECD3DEC320B8246E00DD3D07 /* TorrentInfo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECD3DEB920B7599D00DD3D07 /* Build configuration list for PBXNativeTarget "azTorrentClient-macOS" */;
 			buildPhases = (
+				9F17C02211AD877823AE5127 /* [CP] Check Pods Manifest.lock */,
 				ECD3DEA220B7599C00DD3D07 /* Sources */,
 				ECD3DEA320B7599C00DD3D07 /* Frameworks */,
 				ECD3DEA420B7599C00DD3D07 /* Resources */,
+				02D1D57515D52D70C25DE815 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +156,11 @@
 				TargetAttributes = {
 					ECD3DEA520B7599C00DD3D07 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,12 +194,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D1D57515D52D70C25DE815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-azTorrentClient-macOS/Pods-azTorrentClient-macOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bencode/Bencode.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bencode.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-azTorrentClient-macOS/Pods-azTorrentClient-macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F17C02211AD877823AE5127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-azTorrentClient-macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECD3DEA220B7599C00DD3D07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD3DEAC20B7599C00DD3D07 /* ViewController.swift in Sources */,
+				ECD3DEBE20B7F2CD00DD3D07 /* Extentions.swift in Sources */,
+				ECD3DEAC20B7599C00DD3D07 /* MainWindowVC.swift in Sources */,
+				ECD3DEC420B8246E00DD3D07 /* TorrentInfo.swift in Sources */,
 				ECD3DEAA20B7599C00DD3D07 /* AppDelegate.swift in Sources */,
 				ECD3DEAF20B7599C00DD3D07 /* azTorrentClient_macOS.xcdatamodeld in Sources */,
 			);
@@ -271,17 +377,15 @@
 		};
 		ECD3DEBA20B7599D00DD3D07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E23AD1B1499401F99AFA60A /* Pods-azTorrentClient-macOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient_macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient-macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
 				INFOPLIST_FILE = "azTorrentClient-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "by.azarov.azTorrentClient-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -290,17 +394,15 @@
 		};
 		ECD3DEBB20B7599D00DD3D07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9AC34DEB5F8CF8447CBADA /* Pods-azTorrentClient-macOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient_macOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "azTorrentClient-macOS/azTorrentClient-macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
 				INFOPLIST_FILE = "azTorrentClient-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "by.azarov.azTorrentClient-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

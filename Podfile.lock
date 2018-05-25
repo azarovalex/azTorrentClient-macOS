@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Bencode (1.4.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Bencode
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Bencode
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Bencode: fc91b1a33fe959f1fe4f624600b8ab6703cfb356
+
+PODFILE CHECKSUM: 000fb2faca18ca9ce50dc072cb5b44ba6e59d3dd
+
+COCOAPODS: 1.5.0
